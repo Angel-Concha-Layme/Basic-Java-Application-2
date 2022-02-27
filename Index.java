@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Index extends JFrame implements ActionListener{
-    private JLabel lblnombre;
+    private JLabel lblnombre,lblIcon;
     private JTextField txtnombre;
     private JButton btnIngresar;
 
@@ -10,6 +10,8 @@ public class Index extends JFrame implements ActionListener{
     public Index(){
         setLayout(null);
         setTitle("Bienvenido");
+
+        lblIcon = new JLabel();
     
         lblnombre = new JLabel("Nombre");
         lblnombre.setBounds(50,50,100,30);
