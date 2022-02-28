@@ -1,7 +1,7 @@
 import javax.swing.*;
 import java.awt.event.*;
 import java.awt.*;
-
+ 
 public class Index extends JFrame implements ActionListener{
     private JLabel lblIcon, lblCorreo, lblBienvenido, lblContrasenia, lblFooter;
     private JTextField txtCorreo, txtContrasenia;
